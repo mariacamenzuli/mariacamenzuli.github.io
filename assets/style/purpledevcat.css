@@ -1,0 +1,77 @@
+/*
+pdc-sock-color: #e2cdfd;
+pdc-main-color: #b775fc;
+*/
+
+@font-face {
+    font-family: uaSquared;
+    src: url(fonts/UASQUARE.TTF);
+}
+
+nav a {
+    font-size: 1.75rem;
+    color: #e2cdfd;
+}
+
+a {
+    color: #b775fc;
+}
+
+a:hover {
+    color: #ffb60c;
+}
+
+.pdc-button {
+    color: #edb73b;
+    transition: unset;
+}
+
+.pdc-button:hover {
+    color: #e2cdfd;
+    background-color: #6c757d;
+    border-radius: 0.25rem;
+    transition: unset;
+}
+
+.pdc-content {
+    max-width: 740px;
+}
+
+.pdc-logo-font {
+    font-family: uaSquared;
+}
+
+.pdc-bg-purple {
+    background-color: #9c8bb2;
+}
+
+.pdc-bg-turquoise {
+    background-color: #40E0D0;
+}
+
+.pdc-text-turquoise-dark {
+    color: #30a599;
+}
+
+.pdc-article header {
+    margin-bottom: 2rem;
+}
+
+.pdc-article hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pdc-article-text {
+    font-size: 1.3rem;
+    font-family: serif;
+}
+
+.pdc-article-text h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.header-logo {
+    border-radius: 10%;
+}

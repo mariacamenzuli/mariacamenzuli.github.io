@@ -1,0 +1,59 @@
+---
+layout: default
+title: Maria Camenzuli
+---
+
+<article class="row mb-4">
+    <div class="col-md-12">
+        <h2 id="goop" class="text-center pdc-logo-font font-weight-bold">Goop</h2>
+        <span class="font-italic pdc-text-turquoise-dark">Unity, C#</span><br>
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/2CixmmoyAFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="pdc-article-text mb-4">
+            <a href="http://gradsingames.com/search-for-a-star/search-for-a-star-sumo-digital-rising-star-2019-finalists"><img class="img-fluid" src="/assets/images/sfas2019-finalist-badge.png" alt="Search for a Star IX Programming Finalist Badge" width="170" align="right"></a>
+            Goop is a game that I built in approximately 3 weeks for the 2019 edition of the Search for a Star game development competition for students. It is built using Unity, and my primary aim for the project was to create a game that, although small in scope, looks and feels polished and well put together. Apart from that, I wanted to try to cover as much of the gameplay as I could manage with automated tests. The game was very well received by the industry judges, who noted that it could easily be releasable with a little extra polish.
+        </div>
+        <p><a class="btn btn-dark pdc-button pdc-logo-font" href="https://vjola.itch.io/goop" role="button">Goop on Itch.io »</a></p>
+    </div>
+</article>
+
+<article class="row mb-4">
+    <div class="col-md-12">
+        <h2 id="game-of-life" class="text-center pdc-logo-font font-weight-bold">Game of Life Pulsar Pattern Visualization Rendered Using DirectX 11</h2>
+        <span class="font-italic pdc-text-turquoise-dark">DirectX 11, C++</span><br>
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eShIiXH5C9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="pdc-article-text mb-4">
+            This is a simple 3D scene rendered using DirectX 11, visualizing a pulsar pattern in a Game of Life simulation. The main aims of the project were to setup a basic 3D rendering framework with an API that would allow a scene to be defined with the ease of creating one in something like Unity, and where the rendering code was decoupled from the simulation code. The rendering framework has the following features.
+            <ul>
+                <li>Texturing</li>
+                <li>Scene graph</li>
+                <li>Model loading (from <code>.obj</code> files)</li>
+                <li>Point light, with omni-directional shadow mapping</li>
+                <li>Fixed update time step, variable rendering</li>
+                <li>Free-look camera</li>
+                <li>Runtime configuration</li>
+            </ul>
+        </div>
+    </div>
+</article>
+
+<article class="row mb-4">
+    <div class="col-md-12">
+        <h2 id="snow-crystal-game" class="text-center pdc-logo-font font-weight-bold">Snow Crystal Memory Game Rendered Using DirectX 11</h2>
+        <span class="font-italic pdc-text-turquoise-dark">DirectX 11, C++</span><br>
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ye-FnnyB0Qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="pdc-article-text mb-4">
+            A prototype of a simple memory game, rendered using DirectX 11, where the player must remember and repeat a sequence of left and right turns taken by a snow crystal that is procedurally generated before the start of the game. The snow crystal is generated using an implementation of the cellular automaton presented in Clifford Reiter’s paper <q><a href="http://patarnott.com/pdf/SnowCrystalGrowth.pdf">A local cellular model for snow crystal growth</a></q>, which models the growth of snow crystals on a 2D grid of hexagonal cells. The rendering framework from the <a href="#game-of-life">Game of Life Pulsar Pattern Visualization</a> project had the following features added to create the game.
+            <ul>
+                <li>GPU instancing</li>
+                <li>Post processing</li>
+                <li>Convolution shader</li>
+            </ul>
+        </div>
+    </div>
+</article>

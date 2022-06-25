@@ -1,0 +1,15 @@
+---
+layout: default
+title: Maria Camenzuli
+---
+
+{% for post in site.posts %}
+    <article class="row mb-4">
+        <div class="col-md-12">
+            <span class="font-italic pdc-text-turquoise-dark">{{ post.date | date: '%B %d, %Y' }}</span><br>
+            <h2 class="pdc-logo-font font-weight-bold">{{ post.title }}</h2>
+            <div class="pdc-article-text">{{ post.excerpt }}</div>
+            <p><a class="btn btn-dark pdc-button pdc-logo-font" href="{{ site.baseurl }}{{ post.url }}" role="button">Read more »</a></p>
+        </div>
+    </article>
+{% endfor %}
