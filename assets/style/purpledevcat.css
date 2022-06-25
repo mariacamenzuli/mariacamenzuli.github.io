@@ -75,3 +75,8 @@ a:hover {
 .header-logo {
     border-radius: 10%;
 }
+
+.header-title {
+    font-size: 4.5rem;
+    overflow-wrap: break-word;
+}
