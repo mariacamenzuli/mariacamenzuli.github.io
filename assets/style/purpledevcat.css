@@ -80,3 +80,9 @@ a:hover {
     font-size: 4.5rem;
     overflow-wrap: break-word;
 }
+
+.feature-link-image {
+    border: 2px solid #40E0D0;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
