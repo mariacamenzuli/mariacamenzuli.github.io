@@ -13,45 +13,45 @@
         <link rel="stylesheet" href="/assets/style/purpledevcat.css"">
     </head>
 
-<body>
-    <header class="text-center pdc-bg-purple">
-        <div class="container pt-5 pb-5">
-            <a class="m-3" href="/">
-                <img class="img-fluid header-logo" src="/assets/images/pdc-logo.png" width="150" alt="Cat Logo">
-            </a>
-            <span class="pdc-logo-font header-title align-middle">maria camenzuli</span>
+    <body>
+        <header class="text-center pdc-bg-purple">
+            <div class="container pt-5 pb-5">
+                <a class="m-3" href="/">
+                    <img class="img-fluid header-logo" src="/assets/images/pdc-logo.png" alt="Purple Cat Logo">
+                </a>
+                <span class="pdc-logo-font header-title align-middle">maria camenzuli</span>
+            </div>
+
+            <nav class="nav justify-content-center pt-1 pb-1 mb-4 bg-dark pdc-logo-font">
+                <a class="nav-link pdc-button" href="/">
+                    <img src="/assets/images/nav-icon-potion.png" width="40" alt="Potion Icon">
+                    projects
+                </a>
+                <a class="nav-link pdc-button" href="/writing.html">
+                    <img src="/assets/images/nav-icon-book.png" width="40" alt="Book Icon">
+                    writing
+                </a>
+                <a class="nav-link pdc-button" href="/features.html">
+                    <img src="/assets/images/nav-icon-crystal.png" width="40" alt="Crystal Icon">
+                    features
+                </a>
+            </nav>
+        </header>
+
+        <div class="container">
+            {{ content }}
         </div>
 
-        <nav class="nav justify-content-center pt-1 pb-1 mb-4 bg-dark pdc-logo-font">
-            <a class="nav-link pdc-button" href="/">
-                <img src="/assets/images/nav-icon-potion.png" width="40" alt="Potion Icon">
-                projects
-            </a>
-            <a class="nav-link pdc-button" href="/writing.html">
-                <img src="/assets/images/nav-icon-book.png" width="40" alt="Book Icon">
-                writing
-            </a>
-            <a class="nav-link pdc-button" href="/features.html">
-                <img src="/assets/images/nav-icon-crystal.png" width="40" alt="Crystal Icon">
-                features
-            </a>
-        </nav>
-    </header>
+        <footer class="text-center text-muted mt-5 mb-5 font-italic">
+            <div class="mb-3">
+                <a href="https://github.com/mariacamenzuli"><img src="/assets/images/icon-github.svg" width="32" height="32" alt="GitHub"></a>
+                <a href="/feed.xml"><img src="/assets/images/icon-rss.svg" width="32" height="32" alt="RSS"></a>
+            </div>
+            <span>Unless otherwise noted, all content is licensed under a<br><a href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license</a>.</span>
+        </footer>
 
-    <div class="container pdc-content">
-        {{ content }}
-    </div>
-
-    <footer class="text-center text-muted mt-5 mb-5 font-italic">
-        <div class="mb-3">
-            <a href="https://github.com/mariacamenzuli"><img src="/assets/images/icon-github.svg" width="32" height="32" alt="GitHub"></a>
-            <a href="/feed.xml"><img src="/assets/images/icon-rss.svg" width="32" height="32" alt="RSS"></a>
-        </div>
-        <span>Unless otherwise noted, all content is licensed under a<br><a href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license</a>.</span>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 
 </html>

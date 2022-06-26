@@ -24,6 +24,7 @@ a:hover {
 .pdc-button {
     color: #edb73b;
     transition: unset;
+    font-size: 1.4rem;
 }
 
 .pdc-button:hover {
@@ -31,10 +32,6 @@ a:hover {
     background-color: #6c757d;
     border-radius: 0.25rem;
     transition: unset;
-}
-
-.pdc-content {
-    max-width: 740px;
 }
 
 .pdc-logo-font {
@@ -53,26 +50,24 @@ a:hover {
     color: #30a599;
 }
 
-.pdc-article header {
-    margin-bottom: 2rem;
-}
-
-.pdc-article hr {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.pdc-article-header {
+    font-size: 1.6rem;
 }
 
 .pdc-article-text {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: serif;
 }
 
 .pdc-article-text h2 {
+    font-family: sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .header-logo {
+    width: 150px;
+    height: 150px;
     border: 2px solid #8968ff;
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -86,6 +81,6 @@ a:hover {
 .feature-link-image {
     border: 1px solid #40E0D0;
     border-radius: 1%;
-    width: 660px;
+    width: 460px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
