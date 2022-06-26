@@ -73,6 +73,7 @@ a:hover {
 }
 
 .header-logo {
+    border: 2px solid #8968ff;
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -83,7 +84,8 @@ a:hover {
 }
 
 .feature-link-image {
-    border: 2px solid #40E0D0;
-    border-radius: 3%;
+    border: 1px solid #40E0D0;
+    border-radius: 1%;
+    width: 660px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
