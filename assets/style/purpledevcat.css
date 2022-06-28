@@ -21,6 +21,11 @@ a:hover {
     color: #ffb60c;
 }
 
+nav .active {
+    background-color: #6c757d;
+    border-radius: 0.25rem;
+}
+
 .pdc-button {
     color: #edb73b;
     transition: unset;

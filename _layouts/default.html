@@ -23,18 +23,17 @@
             </div>
 
             <nav class="nav justify-content-center pt-1 pb-1 mb-4 bg-dark pdc-logo-font">
-                <a class="nav-link pdc-button" href="/">
-                    <img src="/assets/images/nav-icon-potion.png" width="40" alt="Potion Icon">
-                    projects
-                </a>
-                <a class="nav-link pdc-button" href="/writing.html">
-                    <img src="/assets/images/nav-icon-book.png" width="40" alt="Book Icon">
-                    writing
-                </a>
-                <a class="nav-link pdc-button" href="/features.html">
-                    <img src="/assets/images/nav-icon-crystal.png" width="40" alt="Crystal Icon">
-                    features
-                </a>
+                {% for item in site.navigation %}
+                    {% if page.url == item.url %}
+                        {% assign class = "nav-link pdc-button active" %}
+                    {% else %}
+                        {% assign class = "nav-link pdc-button" %}
+                    {% endif %}
+                    <a class="{{ class }}" href="{{ item.url }}">
+                        <img src="{{ item.icon.url }}" width="40" alt="{{ item.icon.alt }}">
+                        {{ item.title }}
+                    </a>
+                {% endfor %}
             </nav>
         </header>
 

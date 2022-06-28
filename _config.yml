@@ -6,3 +6,20 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+navigation:
+  - title: projects
+    url: /
+    icon:
+      url: /assets/images/nav-icon-potion.png
+      alt: Potion Icon
+  - title: writing
+    url: /writing.html
+    icon:
+      url: /assets/images/nav-icon-book.png
+      alt: Book Icon
+  - title: features
+    url: /features.html
+    icon:
+      url: /assets/images/nav-icon-crystal.png
+      alt: Crystal Icon
