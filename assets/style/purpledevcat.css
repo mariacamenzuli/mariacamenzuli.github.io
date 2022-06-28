@@ -65,6 +65,13 @@ a:hover {
     font-size: 1.3rem;
 }
 
+.pdc-article-box {
+    border: 1px solid #40E0D0;
+    border-radius: 1%;
+    padding: 15px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .header-logo {
     width: 150px;
     height: 150px;
